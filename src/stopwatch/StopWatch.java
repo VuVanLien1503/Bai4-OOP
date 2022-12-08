@@ -3,18 +3,39 @@ package stopwatch;
 import java.util.Date;
 
 public class StopWatch {
-    private double startTime;
-    private double endTime;
+    private long startTime;
+    private long endTime;
    public StopWatch(){
     }
-    public StopWatch(double startTime,double endTime){
+    public StopWatch(long startTime, long endTime){
        this.startTime=startTime;
        this.endTime=endTime;
     }
-    public Date getStartTime(){
-       long millis=System.currentTimeMillis();
-        java.util.Date date=new java.util.Date(millis);
-        return date;
+
+    public long getStartTime() {
+        return startTime;
+    }
+
+    public void setStartTime(long startTime) {
+        this.startTime = startTime;
+    }
+
+    public long getEndTime() {
+        return endTime;
+    }
+
+    public void setEndTime(long endTime) {
+        this.endTime = endTime;
+    }
+    public void star(){
+       this.startTime=System.currentTimeMillis();
+    }
+    public void stop(){
+       this.endTime=System.currentTimeMillis();
+    }
+    public long getElapsedTime(){
+        long result = this.endTime-this.startTime;
+        return result;
     }
 
 }

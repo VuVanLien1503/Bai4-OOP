@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5be38338-4bda-4884-b45f-3b4a552140dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Fan/FanSpeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fan/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stopwatch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stopwatch/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stopwatch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stopwatch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stopwatch/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stopwatch/StopWatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +40,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CodeGym/MD2/Week1/Bai4-OOP",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Fan.Main">
+  <component name="RunManager" selected="Application.product.Main">
     <configuration name="Fan.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fan.Main" />
       <module name="Bai4-OOP" />
@@ -80,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="product.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="product.Main" />
+      <module name="Bai4-OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="stopwatch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stopwatch.Main" />
       <module name="Bai4-OOP" />
@@ -95,9 +109,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.product.Main" />
+        <item itemvalue="Application.stopwatch.Main" />
         <item itemvalue="Application.Fan.Main" />
         <item itemvalue="Application.QuadraticEquation.Main" />
-        <item itemvalue="Application.stopwatch.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -110,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670332567585</updated>
-      <workItem from="1670332568920" duration="8154000" />
+      <workItem from="1670332568920" duration="19350000" />
     </task>
     <servers />
   </component>
